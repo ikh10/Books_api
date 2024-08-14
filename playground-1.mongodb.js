@@ -1,0 +1,233 @@
+// MongoDB Playground
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// The current database to use.
+use('Novels');
+
+// Create a new document in the collection.
+db.getCollection('books').insertMany(
+    [
+        {
+            "title": "1984",
+            "author": [
+                {
+                    "name": "George Orwell"
+                }
+            ],
+            "publish_date": "2003",
+            "genres": [
+                "Dystopian",
+                "Political Fiction"
+            ]
+        },
+        {
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "author": [
+                {
+                    "name": "Douglas Adams"
+                }
+            ],
+            "publish_date": "2001",
+            "genres": [
+                "Science Fiction",
+                "Comedy"
+            ]
+        },
+        {
+            "title": "The Iliad",
+            "author": [
+                {
+                    "name": "Homer"
+                }
+            ],
+            "publish_date": "1998",
+            "genres": [
+                "Epic Poetry",
+                "Classics"
+            ]
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": [
+                {
+                    "name": "Harper Lee"
+                }
+            ],
+            "publish_date": "2006",
+            "genres": [
+                "Southern Gothic",
+                "Legal Thriller"
+            ]
+        },
+        {
+            "title": "The Little Prince",
+            "author": [
+                {
+                    "name": "Antoine de Saint-Exupéry"
+                }
+            ],
+            "publish_date": "2000",
+            "genres": [
+                "Fiction",
+                "Children's Literature",
+                "Fantasy"
+            ]
+        },
+        {
+            "title": "The Road",
+            "author": [
+                {
+                    "name": "Cormac McCarthy"
+                }
+            ],
+            "publish_date": "2006",
+            "genres": [
+                "Post-Apocalyptic",
+                "Drama"
+            ]
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": [
+                {
+                    "name": "Jane Austen"
+                }
+            ],
+            "publish_date": "1995",
+            "genres": [
+                "Romance",
+                "Classics"
+            ]
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": [
+                {
+                    "name": "F. Scott Fitzgerald"
+                }
+            ],
+            "publish_date": "2004",
+            "genres": [
+                "Tragedy",
+                "Historical Fiction"
+            ]
+        },
+        {
+            "title": "The Bell Jar",
+            "author": [
+                {
+                    "name": "Sylvia Plath"
+                }
+            ],
+            "publish_date": "2005",
+            "genres": [
+                "Autobiography",
+                "Literary Fiction"
+            ]
+        },
+        {
+            "title": "The Shining",
+            "author": [
+                {
+                    "name": "Stephen King"
+                }
+            ],
+            "publish_date": "1992",
+            "genres": [
+                "Horror",
+                "Thriller"
+            ]
+        },
+        {
+            "title": "The Color Purple",
+            "author": [
+                {
+                    "name": "Alice Walker"
+                }
+            ],
+            "publish_date": "2003",
+            "genres": [
+                "Historical Fiction",
+                "Drama"
+            ]
+        },
+        {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "author": [
+                {
+                    "name": "J.K. Rowling"
+                }
+            ],
+            "publish_date": "1999",
+            "genres": [
+                "Fantasy",
+                "Young Adult"
+            ]
+        },
+        {
+            "title": "Brave New World",
+            "author": [
+                {
+                    "name": "Aldous Huxley"
+                }
+            ],
+            "publish_date": "1998",
+            "genres": [
+                "Dystopian",
+                "Science Fiction"
+            ]
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "author": [
+                {
+                    "name": "J.D. Salinger"
+                }
+            ],
+            "publish_date": "1991",
+            "genres": [
+                "Fiction",
+                "Young Adult"
+            ]
+        },
+        {
+            "title": "The Odyssey",
+            "author": [
+                {
+                    "name": "Homer"
+                }
+            ],
+            "publish_date": "1998",
+            "genres": [
+                "Epic Poetry",
+                "Classics"
+            ]
+        },
+        {
+            "title": "The Goldfinch",
+            "author": [
+                {
+                    "name": "Donna Tartt"
+                }
+            ],
+            "publish_date": "2013",
+            "genres": [
+                "Literary Fiction",
+                "Thriller"
+            ]
+        },
+        {
+            "title": "One Hundred Years of Solitude",
+            "author": [
+                {
+                    "name": "Gabriel García Márquez"
+                }
+            ],
+            "publish_date": "2006",
+            "genres": [
+                "Magical Realism",
+                "Historical Fiction"
+            ]
+        }
+    ]
+);
